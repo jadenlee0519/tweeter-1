@@ -3,9 +3,7 @@
  * https://css-tricks.com/international-box-sizing-awareness-day/
  * Do not modify these two selectors, please
  */
-
-
-html {
+ html {
   box-sizing: border-box;
 }
 *, *:before, *:after {
@@ -25,3 +23,18 @@ body {
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+ /* Everything that is not specified should be in Source Sans Pro */
+ * {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+
+
+main {
+  margin: auto;
+  position: relative;
+  width: 90%;
+  top: 120px;
+  background-color: #f4f1ec;
+}

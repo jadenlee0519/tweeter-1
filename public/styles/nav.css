@@ -1,0 +1,33 @@
+/* Nav bar*/
+nav {
+  height: 120px;
+  width: 100vw;
+  background-color: #4056A1;
+  color: #FFFFFF;
+  padding: 1.5em;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+
+
+/*TWEETER text*/
+.tweeter-heading {
+  font-family: Bungee, sans-serif;
+  font-size: 1.5em;
+  float: left;
+}
+
+/*Write a new tweet */
+.write-tweet {
+  float: right;
+  font-size: 1em;
+}
+
+/* Double down arrow */
+.write-tweet i {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.25em;
+  color: red;
+}
